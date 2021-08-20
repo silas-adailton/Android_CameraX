@@ -23,9 +23,6 @@ import java.util.*
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
-
-typealias LumaListener = (luma: Double) -> Unit
-
 class MainActivity : AppCompatActivity(), SurfaceHolder.Callback {
     private var imageCapture: ImageCapture? = null
     private lateinit var cameraX: CameraX
